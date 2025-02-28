@@ -1,6 +1,67 @@
-h1 {
+h1,h2,p,text,h3,ul {
+    color: white;
     text-align: center;
 }
+
+a {
+    color: white;
+}
+
+h1, h2 {
+    margin: 0;
+    margin-top: 0px;
+}
+
 body {
     background-color: cornflowerblue;
+}
+ 
+.background {
+    padding: 1px;
+}
+
+.center_box {
+    background: rgb(54, 54, 161);
+    width: 90%;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.bp_list {
+    text-align: left;
+    padding-left: 20%;
+}
+
+.segment_header h3 {
+    display: inline-block;
+}
+
+.segment_title {
+    
+    text-align: left;
+    padding-left: 5%;
+    width: 45%;
+    
+}
+
+.segment_date {
+    
+    text-align: center;
+    width: 50%;
+    
+    
+}
+
+.contact_info p {
+    display: inline-block;
+}
+
+.contact {
+    width: 33%;
+}
+#experience {
+    background: rgb(54, 54, 100);
 }
