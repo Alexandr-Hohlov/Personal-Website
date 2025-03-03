@@ -1,5 +1,27 @@
+h1 {
+    font-size: 36px;
+    text-align: center;
+    color: #0b5394;
+}
+
+h2 {
+    font-size: 20px;
+    text-align: center;
+    color: #0b5394;
+}
+
 body {
     background-color: #f9fbfd;
+}
+
+.contact-info {
+    display: flex;
+}
+
+.contact-info h3 {
+    flex: 1;
+    color: #0b5394;
+    text-align: center;
 }
 
 
@@ -7,7 +29,32 @@ body {
     background: white;
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
+    width: 65%;
     border-style: solid;
     border-color: black;
+}
+
+
+.line-title {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.line-title hr {
+    height: 0px;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 35%;
+    border: 3px solid #0b5394;
+    
+}
+
+.line-title h2 {
+    width: 30%;
+    text-align: center;
+}
+
+.info-paragraph {
+    padding-left: 20%;
 }
